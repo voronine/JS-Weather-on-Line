@@ -1,0 +1,71 @@
+
+.package-name {
+    text-transform: uppercase;
+    color: green;
+    font-weight:bold;
+}
+.temp{
+    font-size: 30px;
+    font-weight:bold;
+}
+.disclaimer{
+    text-transform:  capitalize;
+    color: green;
+    font-weight:bold;
+    font-style:italic;
+}
+.features {
+    list-style-type: none;
+    text-align: center;
+    border: 1px green solid;
+    border-radius: 100px;
+    background-color: white;
+}
+.features, .main{
+    font-style:italic;
+    font-weight:bold;
+}
+
+.pricing-table {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 1%;
+    width: 10%;
+    border: 3px green solid;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+}
+#city{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.main{
+    text-align: left;
+    margin-left: -10%;
+}
+hr{
+    background-color: green;
+}
+
+select {
+    width: 10%;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: green;
+    padding: 10px;
+}
+
+  select::-ms-expand {
+    display: none; 
+  }
+  select:hover,
+  select:focus {
+    color: white;
+    background-color: green;
+  }
